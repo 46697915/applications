@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+server:
+  port: 5001
+spring:
+  profiles: dev
+  application:
+    name: config-client5001
+---
+server:
+  port: 5002
+spring:
+  profiles: test
+  application:
+    name: config-client5002
