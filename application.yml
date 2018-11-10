@@ -16,3 +16,10 @@ spring:
   profiles: test
   application:
     name: config-client5002
+---
+server:
+  port: 5003
+spring:
+  profiles: product
+  application:
+    name: config-client5003
